@@ -4,7 +4,6 @@
 ---
 
 ## Project Structure
-
 ```
 web_scrapping-data_analysis/
 ├── data-cleaner.py          # Cleans and preprocesses scraped job data
@@ -16,9 +15,7 @@ web_scrapping-data_analysis/
 ---
 
 ## Features
-
 ### 1. Data Cleaning (`data-cleaner.py`)
-
 * Standardizes column names and formats.
 * Encodes `experience` and `level` into numeric values.
 * Extracts date components (year, month, day) from deadlines.
@@ -26,7 +23,6 @@ web_scrapping-data_analysis/
 * Exports cleaned dataset to `cleaned_top_jobs.csv`.
 
 ### 2. Exploratory Data Analysis (`web-scrapping-eda.py`)
-
 * Dataset overview and summary statistics (numerical & categorical).
 * Missing value analysis.
 * **Univariate Analysis**: Top job posts, top companies, experience distribution, job level distribution.
@@ -36,7 +32,6 @@ web_scrapping-data_analysis/
 ---
 
 ## Visualizations
-
 * Top posts and companies (horizontal bar charts).
 * Experience requirements distribution.
 * Job levels distribution (Entry, Medium, Senior, Top).
@@ -50,14 +45,14 @@ web_scrapping-data_analysis/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/<your-username>/web_scrapping-data_analysis.git
+git clone https://github.com/<dpm24800>/web_scrapping-data_analysis.git
 cd web_scrapping-data_analysis
 ```
 
 2. **Install dependencies**
 
 ```bash
-pip install pandas numpy matplotlib seaborn scipy
+pip install pandas numpy matplotlib seaborn
 ```
 
 3. **Run the data cleaner**
@@ -77,4 +72,4 @@ python web-scrapping-eda.py
 ## Notes
 
 * This project relies on `top-jobs-scraper` for the raw job listing data.
-* Visualizations are generated using `matplotlib` and `seaborn
+* Visualizations are generated using `matplotlib` and `seaborn`
