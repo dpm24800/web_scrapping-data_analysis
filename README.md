@@ -45,7 +45,7 @@ web_scrapping-data_analysis/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/<dpm24800>/web_scrapping-data_analysis.git
+git clone https://github.com/dpm24800/web_scrapping-data_analysis.git
 cd web_scrapping-data_analysis
 ```
 
