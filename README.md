@@ -41,28 +41,23 @@ web_scrapping-data_analysis/
 ---
 
 ## Getting Started
-
 1. **Clone the repository**
-
 ```bash
 git clone https://github.com/dpm24800/web_scrapping-data_analysis.git
 cd web_scrapping-data_analysis
 ```
 
 2. **Install dependencies**
-
 ```bash
 pip install pandas numpy matplotlib seaborn
 ```
 
 3. **Run the data cleaner**
-
 ```bash
 python data-cleaner.py
 ```
 
 4. **Perform EDA**
-
 ```bash
 python web-scrapping-eda.py
 ```
@@ -70,6 +65,5 @@ python web-scrapping-eda.py
 ---
 
 ## Notes
-
-* This project relies on `top-jobs-scraper` for the raw job listing data.
-* Visualizations are generated using `matplotlib` and `seaborn`
+- This project relies on `top-jobs-scraper` for the raw job listing data.
+- Visualizations are generated using `matplotlib` and `seaborn`
